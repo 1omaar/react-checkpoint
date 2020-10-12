@@ -1,0 +1,136 @@
+/*css navbar*/
+.mr-auto,
+.mx-auto {
+  margin: 0 25% !important;
+}
+.navbar-dark .navbar-brand {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: #fc0 1px 0 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Oswald", sans-serif !important;
+  color: azure !important;
+  font-size: 25px;
+}
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 3.5rem !important;
+}
+/*css app1*/
+.home-design {
+  background-image: url(./images/css-background-image-linear-gradient.png);
+  height: 107vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-design {
+  width: 67% !important ;
+  margin-top: 70%;
+  font-weight: bold;
+}
+.logo-design {
+  margin-top: 25%;
+}
+.title-design {
+  margin-left: 33%;
+  font-family: "Roboto Slab", serif;
+  font-size: 43px;
+}
+/*css App2*/
+.welcome-room-design {
+  background-image: url(./images/téléchargement.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 107%;
+  height: 107vh;
+  color: aliceblue;
+}
+.logo-div {
+  margin-top: 30%;
+  margin-right: 15%;
+}
+.info-div {
+  margin-top: 40%;
+  margin-left: 15%;
+}
+.title-style {
+  text-align: center;
+}
+/*css App3*/
+.sanding-design {
+  background: radial-gradient(ellipse at bottom, #000000 40%, #005053);
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  overflow: hidden;
+}
+.container-sanding {
+  height: 75vh;
+  width: 75vw;
+  background-color: white;
+  border: 5px solid rgb(71, 41, 41);
+  border-radius: 10%;
+  margin: 6.75% 12.5%;
+}
+.sanding-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3 {
+  text-align: center;
+
+  font-family: "Sansita Swashed", cursive;
+}
+.logos-lib {
+  height: 30vh;
+  width: 15vw;
+}
+.logo-designes {
+  display: flex;
+  justify-content: space-around;
+}
+.s-display {
+  display: flex;
+  justify-content: space-around;
+}
+.sanding {
+  background-color: rgb(160, 150, 150);
+  width: 20vw;
+  height: 30vh;
+  border-radius: 5%;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  color: rgb(236, 236, 234);
+}
+h4 {
+  text-align: center;
+  font-family: "Sansita Swashed", cursive;
+  margin-top: 5%;
+}
+.form-designes {
+  margin-left: 5%;
+  margin-top: 7%;
+}
+.form-designes > p {
+  font-size: 20px;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 2px;
+}
+.title-logo{
+  margin-top: 5%;
+}
+
+/*css footer*/
+.last {
+  height: 2vh;
+}
+footer>p {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(43, 42, 42);
+}
